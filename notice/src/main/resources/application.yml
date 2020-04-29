@@ -1,0 +1,11 @@
+server:
+  port: 6611
+
+spring:
+  application:
+    name: notice
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:5555/eureka/

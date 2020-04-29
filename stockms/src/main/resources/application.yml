@@ -1,0 +1,11 @@
+server:
+  port: 6622
+
+spring:
+  application:
+    name: stockms
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:5555/eureka/

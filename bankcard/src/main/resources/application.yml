@@ -1,0 +1,11 @@
+server:
+  port: 5577
+
+spring:
+  application:
+    name: bankcard
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:5555/eureka/
