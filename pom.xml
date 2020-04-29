@@ -25,6 +25,9 @@
         <module>eureka_server</module>
         <module>funds</module>
         <module>notice</module>
+        <module>stockms</module>
+        <module>stockshow</module>
+        <module>transaction</module>
     </modules>
 
     <!--配置参数-->
